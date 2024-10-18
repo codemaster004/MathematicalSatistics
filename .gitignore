@@ -1,3 +1,5 @@
 # Ignore IDE files
 .idea
 
+# Jupiter Casche
+.ipynb_checkpoints
