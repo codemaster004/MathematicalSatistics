@@ -19,6 +19,9 @@ For **Continuous Variables** is a a chart/plot where on X is a range of possible
 $$
 \mu = \frac{\sum_{i=1}^{N} {x}_{i}} {N}
 $$
+$$
+\mu = \sum_{i=0}^N x_iP(x_i)
+$$
 
 ---
 ## Variance & Standard Deviation
@@ -28,6 +31,10 @@ $$
 $$
 \sigma = \sqrt{\frac{\sum_{i=1}^{N} (x_i - \mu)^2} {N}}
 $$
+$$
+\sigma = \sqrt{\sum_{i=1}^N (x_i-\mu)^2P(x_i)}
+$$
+
 **Variance**
 *Yes here just squaring then std is enough*
 $$
