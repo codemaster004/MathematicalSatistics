@@ -21,7 +21,7 @@ $$
 > In your amazing application you are running adds to make money for further development. You find that on average you
 > get 7 clicks per hour.
 >
-> Q: If you would be running that ad for over 4 hours, what is the probability of you getting at least 25 clicks?
+> Q: If you would be running that ad for 4 hours, what is the probability of you getting at least 25 clicks?
 
 ## Example Code
 
@@ -31,6 +31,6 @@ from scipy.stats import poisson
 lamb = 7
 
 # Question 1
-cumulative_p = poisson.cdf(25, 4 * lamb)
-print(f"Answer 1: {cumulative_p}")
+cumulative_p = poisson.cdf(24, 4 * lamb)
+print(f"Answer 1: {1-cumulative_p}")
 ```
