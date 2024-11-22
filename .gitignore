@@ -3,3 +3,6 @@
 
 # Jupiter Casche
 .ipynb_checkpoints
+
+# Do not include data files
+data/
